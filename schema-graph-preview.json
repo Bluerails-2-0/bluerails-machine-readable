@@ -1,0 +1,191 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": [
+                "Organization",
+                "Winery"
+            ],
+            "@id": "https://weingut-domhof.de/#organization",
+            "name": "Weingut Domhof",
+            "url": "https://weingut-domhof.de/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://weingut-domhof.de/wp-content/uploads/2015/10/weingut-domhof-logo.png"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bleichstraße 12-14",
+                "addressLocality": "Guntersblum",
+                "postalCode": "67583",
+                "addressRegion": "Rheinland-Pfalz",
+                "addressCountry": "DE"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "49.7954974",
+                "longitude": "8.3468879"
+            },
+            "telephone": "+49 6249 805767",
+            "email": "baumann@weingut-domhof.de",
+            "sameAs": [
+                "https://www.instagram.com/weingut_domhof/"
+            ]
+        },
+        {
+            "@type": "Hotel",
+            "@id": "https://weingut-domhof.de/#schlafgut",
+            "name": "Schlafgut Domhof",
+            "url": "https://weingut-domhof.de/schlafgut/",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bleichstraße 12-14",
+                "addressLocality": "Guntersblum",
+                "postalCode": "67583",
+                "addressRegion": "Rheinland-Pfalz",
+                "addressCountry": "DE"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "49.7954974",
+                "longitude": "8.3468879"
+            },
+            "telephone": "+49 6249 805767",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "description": "3 Sterne Superior (DEHOGA)",
+            "isPartOf": {
+                "@id": "https://weingut-domhof.de/#organization"
+            }
+        },
+        {
+            "@type": "Restaurant",
+            "@id": "https://weingut-domhof.de/#schmecktgut",
+            "name": "Schmecktgut Domhof",
+            "url": "https://weingut-domhof.de/schmecktgut/",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bleichstraße 12-14",
+                "addressLocality": "Guntersblum",
+                "postalCode": "67583",
+                "addressRegion": "Rheinland-Pfalz",
+                "addressCountry": "DE"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "49.7954974",
+                "longitude": "8.3468879"
+            },
+            "telephone": "+49 6249 805767",
+            "isPartOf": {
+                "@id": "https://weingut-domhof.de/#organization"
+            }
+        },
+        {
+            "@type": "EventVenue",
+            "@id": "https://weingut-domhof.de/#feiergut-tagegut",
+            "name": "Feiergut & Tagegut Domhof",
+            "url": "https://weingut-domhof.de/feiergut/",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bleichstraße 12-14",
+                "addressLocality": "Guntersblum",
+                "postalCode": "67583",
+                "addressRegion": "Rheinland-Pfalz",
+                "addressCountry": "DE"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "49.7954974",
+                "longitude": "8.3468879"
+            },
+            "telephone": "+49 6249 805767",
+            "isPartOf": {
+                "@id": "https://weingut-domhof.de/#organization"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/grape-escape/#event",
+            "name": "Grape Escape",
+            "url": "https://weingut-domhof.de/blog/events/grape-escape/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/degustationsmenue/#event",
+            "name": "Degustationsmenü",
+            "url": "https://weingut-domhof.de/blog/events/degustationsmenue/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/krimidinner/#event",
+            "name": "Krimidinner",
+            "url": "https://weingut-domhof.de/blog/events/krimidinner/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/herbsterleben/#event",
+            "name": "Herbsterleben",
+            "url": "https://weingut-domhof.de/blog/events/herbsterleben/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/hopfen-kuesst-traube/#event",
+            "name": "Hopfen küsst Traube",
+            "url": "https://weingut-domhof.de/blog/events/hopfen-kuesst-traube/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/korken-und-koepfchen/#event",
+            "name": "Korken und Köpfchen",
+            "url": "https://weingut-domhof.de/blog/events/korken-und-koepfchen/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/wein-quiz-night/#event",
+            "name": "Wein-Quiz-Night",
+            "url": "https://weingut-domhof.de/blog/events/wein-quiz-night/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/kellergeheimnisse/#event",
+            "name": "Kellergeheimnisse",
+            "url": "https://weingut-domhof.de/blog/events/kellergeheimnisse/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        },
+        {
+            "@type": "Event",
+            "@id": "https://weingut-domhof.de/blog/events/gans-schoen-festlich/#event",
+            "name": "Gans schön festlich",
+            "url": "https://weingut-domhof.de/blog/events/gans-schoen-festlich/",
+            "location": {
+                "@id": "https://weingut-domhof.de/#feiergut-tagegut"
+            }
+        }
+    ]
+}
