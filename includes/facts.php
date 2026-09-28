@@ -83,5 +83,60 @@ function bluerails_dhz_facts() {
 			array( 'slug' => 'kellergeheimnisse', 'name' => 'Kellergeheimnisse', 'url' => 'https://weingut-domhof.de/blog/events/kellergeheimnisse/', 'start_date' => null ),
 			array( 'slug' => 'gans-schoen-festlich', 'name' => 'Gans schön festlich', 'url' => 'https://weingut-domhof.de/blog/events/gans-schoen-festlich/', 'start_date' => null ),
 		),
+
+		// Detail below sourced live 2026-09-28 from each business-line page itself
+		// (not the evidence dir, which predates it) — see FACTS-SHEET.md's detail
+		// section for the exact quoted source line per field. Perishable, dated
+		// package pricing/dates deliberately excluded — those go stale and this
+		// plugin has no update mechanism; the pages array above already links to
+		// inklusivangebote for current offers.
+		'schlafgut_detail'     => array(
+			'room_count_total'   => 22,
+			'apartment_count'    => 2,
+			'accessible_rooms'   => 1,
+			'named_rooms'        => array( 'Riesling-Lounge', 'Himmelthal', 'Flaschenlager', 'Zehntscheune', 'Wolke 7', 'Seitensprung' ),
+			'rate_double_from'   => '132€',
+			'rate_single_from'   => '98€',
+			'check_in'           => 'ab 15:00 Uhr',
+			'check_out'          => 'nach dem Frühstück',
+			'pets_allowed'       => true,
+			'parking_free'       => true,
+			'ev_charging'        => true,
+			'vegan_breakfast'    => true,
+		),
+		'ferienwohnung_detail' => array(
+			'apartment_sqm'  => array( 90, 80 ),
+			'max_guests'     => 6,
+		),
+		'schmecktgut_detail'   => array(
+			'chef'         => 'Kevin Muth',
+			'cuisine'      => 'gehobene modern-kreative Küche',
+			'address'      => 'Hauptstr. 33, 67583 Guntersblum',
+			'hours'        => 'Di–Do 17:30–22:00 Uhr, Fr & Sa 17:30–22:30 Uhr',
+			'price_range'  => 'Vorspeisen 10–20€, Hauptgänge 27–42€, Desserts 4–15€',
+			'vegan_options' => true,
+			'kids_menu'    => true,
+			'english_menu' => true,
+		),
+		'feiergut_detail'      => array(
+			'capacity_guests' => 100,
+			'space_sqm'       => 150,
+			'registrar_note'  => 'offizielle Außenstelle des Standesamts Guntersblum im Pferdestall',
+		),
+		'tagegut_detail'       => array(
+			'capacity_guests' => 46,
+			'seating'         => 'U-Form',
+		),
+		'escape_room_detail'   => array(
+			'duration_min'   => 60,
+			'players_min'    => 2,
+			'players_max'    => 8,
+			'difficulty'     => '4/5',
+			'price_from'     => '80€ (2 Spieler)',
+			'price_to'       => '160€ (8 Spieler)',
+			'english_available' => true,
+			'min_age'        => 10,
+		),
+		'opening_hours_office' => 'Mo–Fr 8–12 Uhr, Mi & Fr zusätzlich 15–18 Uhr (oder nach telefonischer Vereinbarung)',
 	);
 }
