@@ -1,0 +1,2 @@
+llms.txt 404
+llms-full.txt 404

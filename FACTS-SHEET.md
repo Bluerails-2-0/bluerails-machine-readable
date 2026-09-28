@@ -6,7 +6,7 @@ external check performed this session is a gap, listed at the bottom instead.
 
 | Fact | Value | Source |
 | --- | --- | --- |
-| Org name | Weingut Domhof | `impressum.html`, `home.html` (evidence dir) |
+| Org name | Weingut Domhof | `impressum.html`, `home.html` (`evidence/weingut-domhof.de-2026-09-25/`) |
 | Street | Bleichstraße 12-14 | `impressum.html` footer block |
 | Postal code / city | 67583 Guntersblum | `impressum.html`; **externally verified** against `de.wikipedia.org/wiki/Guntersblum` infobox (2026-09-27) — matches |
 | Region | Rheinland-Pfalz | Nominatim geocode result (below), consistent with `impressum.html`'s "Ministerium für Wirtschaft... Mainz" |
@@ -16,10 +16,10 @@ external check performed this session is a gap, listed at the bottom instead.
 | Geo (lat/lon) | 49.7954974 / 8.3468879 | **Externally geocoded** via `nominatim.openstreetmap.org` for "Bleichstr. 12-14, 67583 Guntersblum, Germany" (2026-09-27) — the geocoder's own `display_name` independently resolved to "Schlafgut Domhof... Guntersblum", corroborating the address |
 | sameAs: Instagram | `https://www.instagram.com/weingut_domhof/` | Listed in site header/footer social menu (`home.html`); **title-verified** via WebFetch — profile title reads "Weingut Domhof (@weingut_domhof)" |
 | Logo URL | `.../weingut-domhof-logo.png` | Yoast's existing Organization node, `home.html`/`impressum.html` JSON-LD |
-| Star rating | `ratingValue: "3"`, description "3 Sterne Superior (DEHOGA)" | `posts.json` (evidence dir) lists a real, published blog post "3 Sterne Superior für SCHLAFGUT Domhof" (id 1419, `/blog/3-sterne-superior-fuer-schlafgut-domhof/`) |
-| Business-line page URLs (Weingut, Feiergut, Tagegut, Schmecktgut, Schlafgut, Ferienwohnung, Escape Room, Inklusivangebote, Kontakt, Historie, News, Impressum, Datenschutz) | see `includes/facts.php` `pages` array | `pages.json` (evidence dir) |
-| Awards CPT (6 URLs) | Feinschmecker, Gault Millau, Best of Wine Tourism Award, Eichelmann, Barrierefreiheit, Vinum | `auszeichnungen-sitemap.xml` (evidence dir) |
-| Events CPT (9 URLs) | grape-escape, degustationsmenue, krimidinner, herbsterleben, hopfen-kuesst-traube, korken-und-koepfchen, wein-quiz-night, kellergeheimnisse, gans-schoen-festlich | `events-sitemap.xml` (evidence dir) — the `/blog/events/` archive URL itself deliberately excluded, per ticket scope |
+| Star rating | `ratingValue: "3"`, description "3 Sterne Superior (DEHOGA)" | `posts.json` (`evidence/weingut-domhof.de-2026-09-25/`) lists a real, published blog post "3 Sterne Superior für SCHLAFGUT Domhof" (id 1419, `/blog/3-sterne-superior-fuer-schlafgut-domhof/`) |
+| Business-line page URLs (Weingut, Feiergut, Tagegut, Schmecktgut, Schlafgut, Ferienwohnung, Escape Room, Inklusivangebote, Kontakt, Historie, News, Impressum, Datenschutz) | see `includes/facts.php` `pages` array | `pages.json` (`evidence/weingut-domhof.de-2026-09-25/`) |
+| Awards CPT (6 URLs) | Feinschmecker, Gault Millau, Best of Wine Tourism Award, Eichelmann, Barrierefreiheit, Vinum | `auszeichnungen-sitemap.xml` (`evidence/weingut-domhof.de-2026-09-25/`) |
+| Events CPT (9 URLs) | grape-escape, degustationsmenue, krimidinner, herbsterleben, hopfen-kuesst-traube, korken-und-koepfchen, wein-quiz-night, kellergeheimnisse, gans-schoen-festlich | `events-sitemap.xml` (`evidence/weingut-domhof.de-2026-09-25/`) — the `/blog/events/` archive URL itself deliberately excluded, per ticket scope |
 
 ## Gaps / TODO-VERIFY (not invented, left incomplete instead)
 
