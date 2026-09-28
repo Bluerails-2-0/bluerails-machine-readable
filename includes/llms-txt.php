@@ -70,6 +70,12 @@ function bluerails_dhz_llms_txt_content() {
 	$lines[] = '- [Grape Escape](' . $f['pages']['escape_room'] . '): Escape Room auf dem Weingut. / Escape room experience on the estate.';
 	$lines[] = '';
 
+	$lines[] = '## Events / Veranstaltungen';
+	foreach ( $f['events'] as $event ) {
+		$lines[] = '- [' . $event['name'] . '](' . $event['url'] . ')' . ( $event['start_date'] ? ': ' . $event['start_date'] : ' (siehe Seite für Termine / see page for dates)' );
+	}
+	$lines[] = '';
+
 	$lines[] = '## Awards / Auszeichnungen';
 	foreach ( $f['awards'] as $award ) {
 		$lines[] = '- [' . ucwords( str_replace( '-', ' ', $award['slug'] ) ) . '](' . $award['url'] . ')';
